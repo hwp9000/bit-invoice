@@ -1,4 +1,4 @@
-## How to set up Bit Invoice:
+## 1. Create a bot:
 
 1. Create a discord bot application [here](https://discord.com/developers/applications).
 
@@ -25,4 +25,28 @@ Copy your Token for your bot.
 Place your Token in the token section of the config.js file.
 ![tokenconfig](https://i.imgur.com/qsRSVoZ.png)
 
-Set the
+## 2. Creating a coinbase commerce account.
+
+1. Create an account [here](https://commerce.coinbase.com/signup).
+
+2. Go to Settings.
+![settings](https://i.imgur.com/tVxq1BP.png)
+
+3. Scroll down to API keys, and click create an API Key.
+![apikeys](https://i.imgur.com/01K8tBv.png)
+
+4. Copy and paste your api key in the config.js file.
+
+## 3. Starting the Bot.
+
+1. Makse sure your config.js file has all of the fields filled out within the "".
+
+2. Navigate to your bot directory in console and type `npm i`.
+
+3. To start your bot type `node .` in the same directory.
+
+4. If your bot is running correctly you should see "Bot is up and running" in your console.
+
+## Support
+
+For support please add HP#9000 on discord!
